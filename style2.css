@@ -157,6 +157,71 @@ header nav ul li .activo {
 
 /* MAIN DEL BLOG  */
 
+main section {
+    padding: 2.125em 0.825em;
+    background-color: var(--color-secundario);
+}
+
+/* titulos  */
+
+main section h2 {
+    color: black;
+    font-family: var(--fuenteSecundaria);
+    font-size: 2em;
+    text-align: center;
+}
+
+main section h2 span {
+    color: var(--color-principal);
+}
+
+main section .underline {
+    position: relative;
+    width: 6em;
+    margin: 0 auto;
+    color: var(--color-principal);
+    font-weight: 700;
+    margin-bottom: 4em;
+    text-align: center;
+    /* esto hace que la flecha se vaya a la mitad */
+}
+
+main section .underline hr {
+    position: absolute;
+    width: 100%;
+    top: -1px;
+    /* -0.063em */
+    border-color: var(--color-principal);
+}
+
+.enlace {
+    color: var(--color-principal);
+    margin: 1em 0 0 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+main aside {
+    width: 100%;
+}
+
+main aside nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    padding: 15px;
+}
+
+main aside nav ul li a:hover {
+    background-color: var(--color-principal);
+    border-radius: 20%;
+}
+
+main aside div .parte {
+    display: none;
+}
+
 /* FOOTER */
 
 footer {
