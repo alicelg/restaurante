@@ -211,7 +211,6 @@ main section #nuestroblog {
     margin: 1em 0 0 0;
     text-decoration: none;
     display: inline-block;
-    margin-left: 25px;
     font-weight: 700;
 }
 
@@ -230,7 +229,7 @@ main aside nav ul li a {
 
 main aside nav ul li a:hover {
     background-color: var(--color-principal);
-    border-radius: 20%;
+    border-radius: 5px;
 }
 
 /* fin de la parte 1 del aside */
@@ -247,7 +246,7 @@ main aside div h3 {
 .lineaA {
     width: 60px;
     font-weight: 700;
-    color: var(--color-principal);
+    border-color: var(--color-principal);
     margin: 0;
 }
 
@@ -276,32 +275,27 @@ main div .menu article {
 }
 
 main div article img {
-    width: 420px;
-    height: auto;
-    margin: 25px;
-    margin-top: 35px;
+    padding: 25px;
 }
 
-main div article .textoMenu {
-    width: 100%;
-    display: block;
+main div article div.textoMenu {
+    display: inline-block;
+    padding: 25px;
 }
 
 main div article .textoMenu h4 {
     font-weight: 700;
     color: white;
-    margin-left: 25px;
-    display: inline;
+    font-size: 0.90em;
 }
 
 main div article .textoMenu span {
-    display: inline;
+    display: inline-block;
     color: var(--color-principal);
-    margin-left: 30px;
+    font-size: 0.75em;
 }
 
 main div article .textoMenu p {
-    margin-left: 25px;
     color: white;
     padding-top: 20px;
     padding-bottom: 10px;
