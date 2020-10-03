@@ -206,6 +206,7 @@ main section .underline hr {
     margin: 1em 0 0 0;
     text-decoration: none;
     display: inline-block;
+    margin-left: 25px;
 }
 
 main aside {
@@ -238,16 +239,58 @@ main aside div h3 {
 }
 
 .lineaA {
-    display: block;
-    text-align: left;
     width: 60px;
     font-weight: 700;
     color: var(--color-principal);
+    margin: 0;
 }
 
 main aside div p {
     color: white;
+    text-align: left;
+    padding: 20px 0px 10px 0px;
+    margin: 0;
 }
+
+@media(min-width: 48em) {
+    main aside {
+        width: 30%;
+    }
+}
+
+main div .menu {
+    width: 100%;
+    margin: 40px;
+    padding: 40px;
+}
+
+main div img {
+    width: 420px;
+    height: auto;
+    margin: 25px;
+    margin-top: 35px;
+}
+
+main div h4 {
+    font-weight: 700;
+    color: white;
+    margin-left: 25px;
+}
+
+main div span {
+    display: inline-block;
+    color: var(--color-principal);
+    margin-left: 25px;
+}
+
+main div p {
+    margin-left: 25px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* fin del aside 2da parte */
 
 /* FOOTER */
 
