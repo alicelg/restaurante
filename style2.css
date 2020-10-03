@@ -165,7 +165,7 @@ main section {
 /* titulos  */
 
 main section h2 {
-    color: black;
+    color: white;
     font-family: var(--fuenteSecundaria);
     font-size: 2em;
     text-align: center;
@@ -194,6 +194,11 @@ main section .underline hr {
     border-color: var(--color-principal);
 }
 
+.fondo {
+    background-color: var(--color-secundario);
+    width: 100%;
+}
+
 .enlace {
     color: var(--color-principal);
     margin: 1em 0 0 0;
@@ -211,6 +216,7 @@ main aside nav ul li a {
     text-align: left;
     color: white;
     padding: 15px;
+    left: 10px;
 }
 
 main aside nav ul li a:hover {
@@ -218,8 +224,20 @@ main aside nav ul li a:hover {
     border-radius: 20%;
 }
 
-main aside div .parte {
-    display: none;
+main aside div h3 {
+    color: white;
+    text-align: left;
+    padding: 20px 0px 10px 0px;
+    font-weight: 700;
+}
+
+.lineaA {
+    width: 60px;
+    font-weight: 700;
+}
+
+main aside div p {
+    color: white;
 }
 
 /* FOOTER */
