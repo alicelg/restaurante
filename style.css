@@ -158,7 +158,7 @@ header nav ul li .activo {
 /* HERO foto principal  */
 
 .hero {
-    background-image: url("../images/fondo.jpg");
+    background-image: url("images/fondo.jpg");
     background-color: grey;
     background-blend-mode: multiply;
     background-size: cover;
