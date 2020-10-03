@@ -196,6 +196,11 @@ main section .underline hr {
 
 /* Aqui empieza mi diseño  */
 
+main section #nuestroblog {
+    width: 100%;
+    height: auto;
+}
+
 .fondo {
     background-color: var(--color-secundario);
     width: 100%;
@@ -207,6 +212,7 @@ main section .underline hr {
     text-decoration: none;
     display: inline-block;
     margin-left: 25px;
+    font-weight: 700;
 }
 
 main aside {
@@ -258,39 +264,63 @@ main aside div p {
     }
 }
 
-main div .menu {
+/* fin del aside 2da parte */
+
+/* Contenido del menu */
+
+main div .menu article {
+    display: block;
     width: 100%;
     margin: 40px;
     padding: 40px;
 }
 
-main div img {
+main div article img {
     width: 420px;
     height: auto;
     margin: 25px;
     margin-top: 35px;
 }
 
-main div h4 {
+main div article .textoMenu {
+    width: 100%;
+    display: block;
+}
+
+main div article .textoMenu h4 {
     font-weight: 700;
     color: white;
     margin-left: 25px;
+    display: inline;
 }
 
-main div span {
-    display: inline-block;
+main div article .textoMenu span {
+    display: inline;
     color: var(--color-principal);
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
-main div p {
+main div article .textoMenu p {
     margin-left: 25px;
     color: white;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-/* fin del aside 2da parte */
+@media(min-width: 48em) {
+    main div article .textoMenu {
+        display: inline;
+    }
+    main div .menu {
+        width: 100%;
+    }
+}
+
+main div article .textoMenu {
+    display: inline;
+}
+
+}
 
 /* FOOTER */
 
