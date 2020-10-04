@@ -159,6 +159,10 @@ header nav ul li .activo {
 
 /* titulo */
 
+main section {
+    padding-bottom: 80px;
+}
+
 main section h2 {
     color: black;
     font-family: var(--fuenteSecundaria);
@@ -197,9 +201,15 @@ main section .underline hr {
     text-decoration: none;
     display: inline-block;
     font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* cosas nuevas  */
+
+main #ourblog .row {
+    flex-wrap: wrap;
+}
 
 main article {
     display: inline-block;
@@ -228,7 +238,7 @@ main article div div p {
 
 main article h3 {
     color: var(--color-secundario);
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding-top: 10px;
     padding-bottom: 10px;
 }
