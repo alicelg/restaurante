@@ -265,9 +265,10 @@ main aside div p {
 
 @media(min-width: 48em) {
     main aside {
-        width: 30%;
+        width: 25%;
         display: inline-block;
         vertical-align: top;
+        margin-right: 60px;
     }
     main .menu {
         display: inline-block;
