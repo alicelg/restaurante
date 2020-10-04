@@ -199,6 +199,50 @@ main section .underline hr {
     font-weight: 700;
 }
 
+/* cosas nuevas  */
+
+main article {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+}
+
+main article div {}
+
+main article div img {
+    width: 300px;
+}
+
+main article div div {
+    background-color: var(--color-principal);
+    width: 70px;
+    height: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2px;
+}
+
+main article div div p {
+    color: white;
+}
+
+main article h3 {
+    color: var(--color-secundario);
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main article span {
+    color: var(--color-principal);
+    font-weight: 700;
+}
+
+main article p {
+    color: var(--color-terciario);
+    padding-top: 10px;
+}
+
 /* FOOTER */
 
 footer {
