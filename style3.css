@@ -255,6 +255,7 @@ main article span {
 main article p {
     color: var(--color-terciario);
     padding-top: 10px;
+    font-size: 0.75em;
 }
 
 @media(min-width:48em) {
@@ -262,6 +263,13 @@ main article p {
         display: inline-block;
         width: 300px;
         margin: 20px;
+    }
+    main article div div {
+        width: 20%;
+        height: 30%;
+    }
+    main article p {
+        font-size: 1em;
     }
 }
 
