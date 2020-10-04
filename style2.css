@@ -255,6 +255,8 @@ main aside div p {
     text-align: left;
     padding: 20px 0px 10px 0px;
     margin: 0;
+    font-size: 0.80em;
+    line-height: 1.5em;
 }
 
 @media(min-width: 48em) {
@@ -280,25 +282,28 @@ main div article img {
 
 main div article div.textoMenu {
     display: inline-block;
-    padding: 25px;
+    padding: 0 25px;
 }
 
 main div article .textoMenu h4 {
     font-weight: 700;
     color: white;
-    font-size: 0.90em;
+    font-size: 0.75em;
+    display: inline-block;
 }
 
 main div article .textoMenu span {
     display: inline-block;
     color: var(--color-principal);
     font-size: 0.75em;
+    margin-left: 10px;
 }
 
 main div article .textoMenu p {
     color: white;
     padding-top: 20px;
     padding-bottom: 10px;
+    font-size: 0.70em;
 }
 
 @media(min-width: 48em) {
