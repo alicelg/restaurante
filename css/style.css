@@ -49,6 +49,10 @@ img {
     display: flex;
 }
 
+.active {
+    color: var(--color-principal);
+}
+
 /* ESTO ES PARA EL MOVIL */
 
 /* HEADER */
