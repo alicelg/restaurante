@@ -262,6 +262,12 @@ main aside div p {
 @media(min-width: 48em) {
     main aside {
         width: 30%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    main .menu {
+        display: inline-block;
+        width: 65%;
     }
 }
 
@@ -269,15 +275,18 @@ main aside div p {
 
 /* Contenido del menu */
 
-main div .menu article {
-    display: block;
-    width: 100%;
-    margin: 40px;
-    padding: 40px;
+main div article:last-child {
+    margin-bottom: 100px;
 }
 
-main div article img {
+main div article div .imagen {
+    width: 100%;
+    display: inline-block;
+}
+
+main div article div img {
     padding: 25px;
+    display: inline-block;
 }
 
 main div article div.textoMenu {
@@ -307,16 +316,38 @@ main div article .textoMenu p {
 }
 
 @media(min-width: 48em) {
-    main div article .textoMenu {
-        display: inline;
-    }
     main div .menu {
         width: 100%;
     }
-}
-
-main div article .textoMenu {
-    display: inline;
+    main div article {
+        margin-bottom: 20px;
+    }
+    main div article .imagen {
+        display: inline-block;
+        width: 25%;
+    }
+    main div article div img {
+        width: 100%;
+        padding: 0;
+    }
+    main div article .textoMenu {
+        display: inline-block;
+        width: 69%;
+        padding: 0 20px;
+        vertical-align: top;
+    }
+    main div article .textoMenu h4 {
+        font-size: 1.1em;
+        display: inline-block;
+    }
+    main div article .textoMenu span {
+        font-size: 1.1em;
+    }
+    main div article .textoMenu p {
+        font-size: 0.90em;
+        padding: 0;
+        margin-top: 0.8em;
+    }
 }
 
 /* FOOTER */
