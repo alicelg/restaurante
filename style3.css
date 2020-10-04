@@ -160,7 +160,7 @@ header nav ul li .activo {
 /* titulo */
 
 main section {
-    padding-bottom: 80px;
+    padding: 2.125em 0.825em;
 }
 
 main section h2 {
@@ -197,30 +197,29 @@ main section .underline hr {
 
 .enlace {
     color: var(--color-principal);
-    margin: 1em 0 0 0;
+    margin: 1em 0 1em 0;
     text-decoration: none;
     display: inline-block;
     font-weight: 700;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 /* cosas nuevas  */
 
 main #ourblog .row {
     flex-wrap: wrap;
+    align-items: center;
 }
 
-main article {
+main #ourblog article {
     display: inline-block;
-    width: 300px;
-    margin: 10px;
+    width: 200px;
+    margin: 15px;
 }
 
 main article div {}
 
 main article div img {
-    width: 300px;
+    width: 100%;
 }
 
 main article div div {
@@ -251,6 +250,14 @@ main article span {
 main article p {
     color: var(--color-terciario);
     padding-top: 10px;
+}
+
+@media(min-width:48em) {
+    main #ourblog article {
+        display: inline-block;
+        width: 300px;
+        margin: 20px;
+    }
 }
 
 /* FOOTER */
